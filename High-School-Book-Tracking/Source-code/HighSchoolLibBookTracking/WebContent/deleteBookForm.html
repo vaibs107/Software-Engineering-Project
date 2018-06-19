@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>High School Library System</title>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+    </head>
+    <body>
+        <form method="post" action="deleteBook.jsp">
+            <table border="1" cellpadding="5" cellspacing="2">
+                <thead>
+                    <tr>
+                        <th colspan="2">Delete User</th>
+                    </tr>
+                </thead>
+                <tbody>
+					<tr>
+						<td>Enter the name of the book to be deleted: </td>
+						<td><input type="TEXT" size=40 name="bookTitle" required/></td>
+					</tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="SUBMIT" value="Delete Book" />
+                            &nbsp;&nbsp;
+                            <input type="RESET" value="Reset" />
+                        </td>                        
+                    </tr>                    
+                </tbody>
+            </table>
+        </form>
+        <form method="post" action="index.jsp">
+            <table border="1" cellpadding="5" cellspacing="2">
+                <tbody>
+                	<tr>
+                    	<td colspan="2" align="center"><input type="submit" value="Back"/></td>
+                    </tr>                   
+                </tbody>
+         	</table>
+       </form>
+    </body>
+</html>

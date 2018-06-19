@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>High School Library System</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+	<form method="post" action="validate_book_update.jsp">
+		<table border="1" cellpadding="5" cellspacing="2">
+			<thead>
+				<tr>
+					<th colspan="2">Update Book Information</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Enter book id to be updated:</td>
+					<td><input type="TEXT" size=20 name="bookId" /></td>
+				</tr>
+				<tr>
+					<td>Publisher:</td>
+					<td><input type="TEXT" size=35 name="bookPublisher" /></td>
+				</tr>
+				<tr>
+					<td>Edition:</td>
+					<td><input type="TEXT" size=5 name="bookEdition" /></td>
+				</tr>
+				<tr>
+					<td>Price:</td>
+					<td><input type="TEXT" size=5 name="bookPrice" /></td>
+				</tr>
+				<tr>
+					<td>Count:</td>
+					<td><input type="TEXT" size=5 name="bookCount" /></td>
+				</tr>
+				<tr>
+					<td>Category:</td>
+					<td><input type="TEXT" size=25 name="bookCategory" /></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><input type="submit"
+						value="Update" /> &nbsp;&nbsp; <input type="reset" value="Reset" /></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+	<form method="post" action="index.jsp">
+		<table border="1" cellpadding="5" cellspacing="2">
+			<tbody>
+				<tr>
+					<td colspan="2" align="center"><input type="submit"
+						value="Back" /></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</body>
+</html>
